@@ -1,0 +1,72 @@
+.login-form{
+    border: 2px solid black;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    position: fixed;
+    top:10px;
+    left:40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(231, 240, 222);
+    
+}
+input{
+    padding: 5px;
+    margin: 4px;
+    width: 90%;
+    font-size: 20px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    
+}
+#submit{
+    background-color: rgb(130, 214, 2);
+    border: 2px solid grey;
+    padding: 5px 20px;
+}
+
+.table{
+    border:1px solid grey;
+    border-collapse: collapse;
+    margin:20px auto;
+    
+}
+.cell-header{
+    border: 2px solid rgb(12, 12, 12);
+    background-color: rgb(130, 214, 2);
+    font-size: 20px;
+    font-weight: bold;
+    padding:3px 6px;
+}
+
+.display{
+    display: none;
+}
+
+td{
+    border:1px solid black;
+    font-size: 18px;
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+}
+button {
+    padding:0.2em 1em;
+    margin:3px;
+    background-color:rgb(230, 41, 41);
+    border-radius: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.logout-btn{
+    background-color: rgb(130, 214, 2);
+    padding:0.5em 1.5em;
+    margin:10px 30px;
+    font-size: 20px;
+    border-radius: 15px;
+}
